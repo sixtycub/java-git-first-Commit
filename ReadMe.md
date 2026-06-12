@@ -19,4 +19,4 @@ Repositorio con ejercicios y proyectos mientras aprendo Java desde cero.
 ## Tecnologías
 - Java
 - MySQL
--Python
+- Python
