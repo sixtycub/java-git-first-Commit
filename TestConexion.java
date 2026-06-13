@@ -8,9 +8,9 @@ public class TestConexion {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/tienda",
+                "jdbc:mysql://localhost:3306/TU_DATABASE",
                 "root",        // tu usuario
-                "YAELmateos3107" // tu contraseña
+                "TU_CONTRASEÑA" // tu contraseña
             );
 
             Statement stmt = conn.createStatement();
